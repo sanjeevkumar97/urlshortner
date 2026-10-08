@@ -8,7 +8,8 @@ const path=require('path');
 const cookieParser = require("cookie-parser");
 
 
-const {v4:uuid}=require('uuid');
+
+const { v4: uuidv4 } = require("uuid");
 
 const {setUser,getUser}=require('./services/auth');
 
